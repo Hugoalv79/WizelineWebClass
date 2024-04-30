@@ -1,0 +1,10 @@
+/* Add import of fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-primary pt-10 p-0 m-0 font-Roboto;
+    /*bg-indigo-800*/
+}
